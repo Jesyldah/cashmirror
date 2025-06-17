@@ -1,0 +1,7 @@
+streamlit
+pandas
+matplotlib
+plotly.express
+pdfplumber
+fpdf
+streamlit_extras

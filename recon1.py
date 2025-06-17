@@ -10,7 +10,7 @@ import re
 from fpdf import FPDF
 from streamlit_extras.metric_cards import style_metric_cards
 from datetime import datetime
-import kaleido
+# import kaleido
 
 st.set_page_config(page_title="CashMirror", page_icon="images/cashmirror.png", layout="wide")
 st.title("📊 M-Pesa Statement Reconciliation Dashboard")
@@ -381,9 +381,9 @@ if file:
         else:
             st.success("No anomalies detected based on withdrawal threshold.")
 
-        st.markdown("---")
-        st.subheader("📋 Transactions Table")
-        st.dataframe(df, use_container_width=True)
+        # st.markdown("---")
+        # st.subheader("📋 Transactions Table")
+        # st.dataframe(df, use_container_width=True)
 
         # Export
         st.markdown("---")

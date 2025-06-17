@@ -1,0 +1,15 @@
+We shall use kobo_venv because it already has streamlit app installed
+
+cd /e/'OneDrive - M-pesa.Africa'/100Human2024/Kobo/
+
+source kobo_venv/Scripts/activate
+
+cd /e/'OneDrive - M-pesa.Africa'/100Human2025/Zuka/agentic_ai
+
+pip install ipykernel
+
+python -m ipykernel install --user --name=kobo_venv
+
+jupyter notebook
+
+streamlit run recon1.py

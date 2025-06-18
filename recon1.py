@@ -12,7 +12,9 @@ from streamlit_extras.metric_cards import style_metric_cards
 from datetime import datetime
 # import kaleido
 
-st.set_page_config(page_title="CashMirror", page_icon="cashmirror.png", layout="wide")
+im = Image.open("./cashmirror.png")
+
+st.set_page_config(page_title="CashMirror", page_icon=im, layout="wide")
 st.title("📊 M-Pesa Statement Reconciliation Dashboard")
 
 # --- Upload Section ---

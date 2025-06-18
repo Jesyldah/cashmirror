@@ -15,7 +15,8 @@ from PIL import Image
 
 im = Image.open("./cashmirror.png")
 
-st.set_page_config(page_title="CashMirror", page_icon=im, layout="wide")
+st.set_page_config(layout="wide", page_title="CashMirror", page_icon = im )
+
 st.title("📊 M-Pesa Statement Reconciliation Dashboard")
 
 # --- Upload Section ---

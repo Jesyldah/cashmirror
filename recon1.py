@@ -10,6 +10,7 @@ import re
 from fpdf import FPDF
 from streamlit_extras.metric_cards import style_metric_cards
 from datetime import datetime
+from PIL import Image
 # import kaleido
 
 im = Image.open("./cashmirror.png")

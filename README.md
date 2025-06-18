@@ -1,6 +1,6 @@
-# 🎈 Blank app template
+# 🎈 Cash Mirror
 
-M-Pesa Statement Reconciliation Dashboard
+M-PESA Statement Reconciliation Dashboard
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cashmirror.streamlit.app//)
 
